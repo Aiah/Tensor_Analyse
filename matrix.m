@@ -1,0 +1,1 @@
+%function [U1,U2,U3,S1,S2,S3,V1,V2,V3]=matrix(A,B,C)%[U1,S1,V1]=svd(A);%[U2,S2,V2]=svd(B);%[U3,S3,V3]=svd(C);function [U1,U2,U3]=matrix(A,B,C)[U1,S1,V1]=svd(A);[U2,S2,V2]=svd(B);[U3,S3,V3]=svd(C);
